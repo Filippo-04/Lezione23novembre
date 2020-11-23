@@ -12,7 +12,7 @@ namespace Lezione23novembre
                 "ASCII range: \n" +
                 "PI (\u03A0), and Sigma (\u03A0).";
             Console.WriteLine("Original String:");
-            Console.OutputEncoding = System.Text.Encoding.Unicode;
+            //Questa riga è necessaria perchè altrimenti non viene stampato il PI e il Sigma.
             Console.WriteLine(unicodeString);
             Console.WriteLine();
         }
