@@ -6,6 +6,7 @@ namespace Lezione23novembre
         static void Main(string[] args)
         {
             Console.WriteLine("Inserisci una frase: ");
+            Console.ReadLine();
             string unicodeString =
                 "This Unicode string has 2 characters outside  the" +
                 "ASCII range: \n" +
